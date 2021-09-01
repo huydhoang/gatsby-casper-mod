@@ -50,7 +50,7 @@ export interface WebsiteConfig {
 
 const config: WebsiteConfig = {
   title: 'Huy/s Devlog',
-  description: 'Notes on startup and engineering',
+  description: 'Notes on engineering and startup',
   coverImage: 'img/blog-cover.png',
   logo: 'img/devlog-logo.png',
   lang: 'en',
