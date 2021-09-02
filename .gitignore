@@ -114,3 +114,6 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 .vscode
+
+# Obsidian config directory
+src/content/.obsidian/
