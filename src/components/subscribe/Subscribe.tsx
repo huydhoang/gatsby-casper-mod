@@ -10,15 +10,13 @@ export interface SubscribeProps {
   title: string;
 }
 
-export const Subscribe: React.FC<SubscribeProps> = props => {
-  return (
-    <SubscribeFormSection>
-      <h3 css={SubscribeFormTitle}>Subscribe to {props.title}</h3>
-      <p>Get the latest posts delivered right to your inbox</p>
-      <SubscribeForm />
-    </SubscribeFormSection>
-  );
-};
+export const Subscribe: React.FC<SubscribeProps> = props => (
+  <SubscribeFormSection>
+    <h3 css={SubscribeFormTitle}>Subscribe to {props.title}</h3>
+    <p>Get posts delivered straight to your inbox!</p>
+    <SubscribeForm />
+  </SubscribeFormSection>
+);
 
 const SubscribeFormSection = styled.section`
   margin: 1.5em 0;
@@ -67,7 +65,7 @@ const SubscribeFormSection = styled.section`
 `;
 
 const SubscribeFormTitle = css`
-  margin: 0 0 3px 0;
+  margin: 0 0 0.15em 0;
   padding: 0;
   /* color: var(--darkgrey); */
   color: ${colors.darkgrey};

@@ -1,7 +1,3 @@
-# Huy's Devlog
-Notes on engineering and startup
-
----
 # gatsby-casper
 
 Demo: https://gatsby-casper.netlify.app

@@ -46,24 +46,30 @@ export interface WebsiteConfig {
    * Appears alongside the footer, after the credits
    */
   footer?: string;
+  /**
+   * Shows all post tags in main index view and post view if true
+   * Otherwise only shows first (primary) tag
+   */
+  showAllTags: boolean;
 }
 
 const config: WebsiteConfig = {
   title: 'Huy/s Devlog',
-  description: 'Notes on engineering and startup',
+  description: 'Notes on software and startup',
   coverImage: 'img/blog-cover.png',
   logo: 'img/devlog-logo.png',
   lang: 'en',
-  siteUrl: 'https://gatsby-casper.netlify.com',
-  facebook: 'https://www.facebook.com/ghost',
-  twitter: 'https://twitter.com/tryghost',
+  siteUrl: 'https://huydhoang.com',
+  facebook: 'https://www.facebook.com/groups/huy.devlog',
+  twitter: 'https://twitter.com/huydh_',
   showSubscribe: true,
   mailchimpAction:
-    'https://twitter.us19.list-manage.com/subscribe/post?u=a89b6987ac248c81b0b7f3a0f&amp;id=7d777b7d75',
-  mailchimpName: 'b_a89b6987ac248c81b0b7f3a0f_7d777b7d75',
-  mailchimpEmailFieldName: 'MERGE0',
+    'https://huydhoang.us5.list-manage.com/subscribe/post?u=b9292cbb9286dfa520e415392&amp;id=01527baaf5',
+  mailchimpName: 'b_b9292cbb9286dfa520e415392_01527baaf5',
+  mailchimpEmailFieldName: 'EMAIL',
   googleSiteVerification: 'GoogleCode',
   footer: 'is based on Gatsby Casper',
+  showAllTags: true,
 };
 
 export default config;

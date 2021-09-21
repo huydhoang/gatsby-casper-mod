@@ -3,15 +3,16 @@ const path = require('path');
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Casper',
-    description: 'A port of the casper blog built for gatsby',
-    siteUrl: 'https://gatsby-casper.netlify.com', // full path to blog - no ending slash
+    title: 'Huy/s Devlog',
+    description: 'Notes on software and startup',
+    siteUrl: 'https://huydhoang.com', // full path to blog - no ending slash
   },
   mapping: {
     'MarkdownRemark.frontmatter.author': 'AuthorYaml',
   },
   plugins: [
     'gatsby-plugin-sitemap',
+    'gatsby-plugin-image',
     {
       resolve: 'gatsby-plugin-sharp',
       options: {
@@ -54,7 +55,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: 'https://gatsby-casper.netlify.com',
+        siteUrl: 'https://huydhoang.com',
       },
     },
     'gatsby-plugin-typescript',
@@ -79,18 +80,15 @@ module.exports = {
         `,
         feeds: [
           {
-            serialize: ({ query: { site, allMarkdownRemark } }) => {
-              return allMarkdownRemark.edges.map(edge => {
-                return {
-                  ...edge.node.frontmatter,
-                  description: edge.node.excerpt,
-                  date: edge.node.frontmatter.date,
-                  url: `${site.siteMetadata.siteUrl}${edge.node.fields.slug}`,
-                  guid: `${site.siteMetadata.siteUrl}${edge.node.fields.slug}`,
-                  custom_elements: [{ 'content:encoded': edge.node.html }],
-                };
-              });
-            },
+            serialize: ({ query: { site, allMarkdownRemark } }) =>
+              allMarkdownRemark.edges.map(edge => ({
+                ...edge.node.frontmatter,
+                description: edge.node.excerpt,
+                date: edge.node.frontmatter.date,
+                url: `${site.siteMetadata.siteUrl}${edge.node.fields.slug}`,
+                guid: `${site.siteMetadata.siteUrl}${edge.node.fields.slug}`,
+                custom_elements: [{ 'content:encoded': edge.node.html }],
+              })),
             query: `
               {
                 allMarkdownRemark(
@@ -112,8 +110,7 @@ module.exports = {
               }
             `,
             output: '/rss.xml',
-            title: 'Ghost\'s Blog',
-            match: '^/blog/',
+            title: 'Huy/s Devlog',
           },
         ],
       },

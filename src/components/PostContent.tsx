@@ -7,7 +7,6 @@ import { colors } from '../styles/colors';
 
 const renderAst = new RehypeReact({
   createElement: React.createElement,
-  // components: { 'interactive-counter': Counter },
   components: {},
 }).Compiler;
 
@@ -20,21 +19,19 @@ export interface PostContentProps {
   htmlAst: any;
 }
 
-const PostContent: React.FC<PostContentProps> = ({ htmlAst }) => {
-  return (
-    <PostFullContent className="post-full-content">
-      {/* TODO: this will apply the class when rehype-react is published https://github.com/rhysd/rehype-react/pull/11 */}
-      <Ast className="post-content" ast={htmlAst} />
-    </PostFullContent>
-  );
-};
+const PostContent: React.FC<PostContentProps> = ({ htmlAst }) => (
+  <PostFullContent className="post-full-content">
+    <Ast className="post-content" ast={htmlAst} />
+  </PostFullContent>
+);
 
 export const PostFullContent = styled.section`
   position: relative;
   margin: 0 auto;
   padding: 0 170px 6vw;
   min-height: 230px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 2rem;
   line-height: 1.6em;
   background: #fff;

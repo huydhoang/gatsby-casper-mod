@@ -51,14 +51,14 @@ export const SiteTitle = styled.h1`
 export const SiteDescription = styled.h2`
   z-index: 10;
   margin: 0;
-  padding: 5px 0;
-  font-size: 2.1rem;
+  padding: 0.2em 0;
+  font-size: 2.2rem;
   line-height: 1.4em;
-  font-weight: 400;
+  font-weight: 500;
   opacity: 0.8;
 
   @media (max-width: 500px) {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 `;
 

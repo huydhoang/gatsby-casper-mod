@@ -56,9 +56,7 @@ const About: React.FC = () => (
 
             <PostFullContent className="post-full-content">
               <div className="post-content">
-                <h5>
-                  A Blog Written for The Nerds
-                </h5>
+                <h5>A Blog For The Nerds</h5>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo finibus leo,
                   non tempus magna vehicula ac. Maecenas mollis ante finibus pharetra imperdiet.
