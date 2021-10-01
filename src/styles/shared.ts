@@ -57,8 +57,35 @@ export const SiteDescription = styled.h2`
   font-weight: 500;
   opacity: 0.8;
 
-  @media (max-width: 500px) {
-    font-size: 2rem;
+  @media only screen and (min-width: 960px) {
+    /* styles for browsers larger than 960px; */
+    font-size: 2.4rem;
+  }
+  @media only screen and (min-width: 1440px) {
+    /* styles for browsers larger than 1440px; */
+    font-size: 2.5rem;
+  }
+  @media only screen and (min-width: 2000px) {
+    /* for sumo sized (mac) screens */
+    font-size: 2.75rem;
+  }
+  @media only screen and (max-device-width: 480px) {
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+    font-size: 1.8rem;
+  }
+  @media only screen and (device-width: 768px) {
+    /* default iPad screens */
+    font-size: 2.2rem;
+  }
+  /* different techniques for iPad screening */
+  @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+    /* For portrait layouts only */
+    font-size: 2.2rem;
+  }
+
+  @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
+    /* For landscape layouts only */
+    font-size: 2.4rem;
   }
 `;
 
@@ -189,8 +216,9 @@ export const SiteHeaderBackground = css`
 
 export const ResponsiveHeaderBackground = styled.div<{ backgroundImage?: string }>`
   ${p =>
-    p.backgroundImage &&
-    `
+    // prettier-ignore
+    p.backgroundImage
+    && `
     position: relative;
     margin-top: 64px;
     padding-bottom: 12px;
@@ -233,9 +261,9 @@ export const ResponsiveHeaderBackground = styled.div<{ backgroundImage?: string 
   `}
 
   ${p =>
-    !p.backgroundImage &&
-    `
-
+    // prettier-ignore
+    !p.backgroundImage
+    && `
     padding-top: 0;
     padding-bottom: 0;
     /* color: var(--darkgrey); */

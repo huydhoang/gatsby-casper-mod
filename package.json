@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-casper",
-  "description": "Casper for gatsby",
-  "version": "0.0.0",
+  "name": "huydhoang.github.io",
+  "description": "Huy/s Devlog",
+  "version": "0.0.1",
   "private": true,
-  "author": "Scott Cooper <scttcper@gmail.com>",
+  "author": "Huy <huydhoan9@gmail.com>, Scott Cooper <scttcper@gmail.com>",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",

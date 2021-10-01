@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Why Learn HTML, CSS, JavaScript?'
+title: 'Why HTML, CSS, JavaScript?'
 author: [Huy]
 tags: ['Getting Started']
 image: img/welcome-to-ghost.jpg
@@ -9,7 +9,7 @@ draft: false
 excerpt: Welcome, it's great to have you here. We know that first impressions are important, so we've populated your new site with some initial getting started posts that will help you get familiar with everything in no time.
 ---
 
-## Why Learn HTML, CSS, JavaScript?
+## Why HTML, CSS, JavaScript?
 
 1. Ghost is designed for ambitious, professional publishers who want to actively build a business around their content. That's who it works best for.
 2. The entire platform can be modified and customised to suit your needs. It's very powerful, but does require some knowledge of code. Ghost is not necessarily a good platform for beginners or people who just want a simple personal blog.
