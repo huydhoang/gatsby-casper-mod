@@ -71,7 +71,7 @@ export const SiteDescription = styled.h2`
   }
   @media only screen and (max-device-width: 480px) {
     /* styles for mobile browsers smaller than 480px; (iPhone) */
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   @media only screen and (device-width: 768px) {
     /* default iPad screens */
