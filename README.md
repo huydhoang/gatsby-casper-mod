@@ -1,3 +1,7 @@
+# My personal blog at [huydhoang.com](https://huydhoang.com)
+This code base closely tracks the latest commits at gatsby-casper, with my own customised flavours.
+
+---
 # gatsby-casper
 
 Demo: https://gatsby-casper.netlify.app

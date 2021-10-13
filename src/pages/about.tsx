@@ -63,8 +63,6 @@ const About: React.FC = () => (
           </article>
         </div>
       </main>
-      <script defer src="https://cmthost.huydhoang.com/js/commento.js" />
-      <div id="commento" />
       <Footer />
     </Wrapper>
   </IndexLayout>
