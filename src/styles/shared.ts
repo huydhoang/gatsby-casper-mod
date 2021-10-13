@@ -52,9 +52,9 @@ export const SiteDescription = styled.h2`
   z-index: 10;
   margin: 0;
   padding: 0.2em 0;
-  font-size: 2.2rem;
+  font-size: 2rem;
   line-height: 1.4em;
-  font-weight: 500;
+  font-weight: 400;
   opacity: 0.8;
 
   @media only screen and (min-width: 960px) {
@@ -71,7 +71,7 @@ export const SiteDescription = styled.h2`
   }
   @media only screen and (max-device-width: 480px) {
     /* styles for mobile browsers smaller than 480px; (iPhone) */
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
   @media only screen and (device-width: 768px) {
     /* default iPad screens */
