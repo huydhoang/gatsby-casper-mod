@@ -19,19 +19,19 @@ And so we fought.
 
 Success was so important that I’ve never felt I could have time to rest. A first-grader kid worked hard to get into the so-called “gifted class”. A high schooler desperately tried to maintain “good” marks. An economics student hopelessly found himself looking for a job, with a mediocre degree, during an economic recession.
 
-12+4 years a student, those classes and exams haunted me into my dreams even until I was 27-28 years of age. In one of these silly dreams, I was being frightened to know that I somehow forgot to attend the final exam day. In several others, faceless teachers were yelling at me for not doing enough homework or preparing for new lessons.
+12+4 years a student, those classes and exams haunted me into my dreams even until I was 27-28 years of age. In one of these silly dreams, I was being frightened to know that I'd somehow forgotten to attend the final exam day. In several others, faceless teachers were yelling at me for not doing enough homework or preparing for new lessons.
 
-I’m not here to blame the education system. But what a shame that that happened to almost every kid I knew as friends.
+I’m not here to blame the education system. But what a shame that that happened to many of the kids I knew.
 
 All that to ensure future success?
 
-And surely I must have got enough to succeed! Enduring all those pains in all those years. Haven’t I?
+And surely I must have got enough to succeed! Right? Enduring all those pains in all those years. Haven’t I?
 
 Yet I have failed. I have failed in so many ways that it’s hard to recount them all in just a few paragraphs. Nothing could describe the feelings. It’s wreaking havoc. From business to relationships to friendships.
 
-At some point, I was all at once fighting with my girlfriend, having troubles with my parents, having been fired from my first job, and losing my close friend’s money. It was embarrassing.
+At some point, I was all at once fighting with my girlfriend, having troubles with my parents, having been fired from my first job, and losing a close friend’s money. It was embarrassing.
 
-A few months into 2013, I’d lost almost everything, financially and emotionally. A friend helped me get a job at a private company 6 months later. If you asked, it felt like a million years in torture, like Dr. Strange vs. Dormammu in endless looped time — although my act was nowhere close to being heroic.
+A few months into 2013, I’d lost almost everything, financially and emotionally. A friend helped me get a job at a private company 6 months later. If you asked, it felt like a million years in torture, like Dr. Strange vs. Dormammu in *endless looped time* — although my act was nowhere close to being heroic.
 
 And time after time, I pretended that I was okay, that somehow I could still get up and fight back. Each time I got on Facebook and bragged about myself, the new friends that I made, the job titles, the scholarship, the startup grant, etc.
 
