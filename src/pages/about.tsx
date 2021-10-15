@@ -57,6 +57,19 @@ const About: React.FC = () => (
             <PostFullContent className="post-full-content">
               <div className="post-content">
                 <h5>A Blog For The Nerds</h5>
+                <p>To you who&apos;s reading,</p>
+                <p>
+                  I have written this blog to openly discuss my past experiences and the products
+                  that I&apos;m working on. If it happens that you like my writing, consider
+                  subscribe via email. The Subscribe button can be found either in the navigation
+                  bar or below each post. It is completely free of charge and will always be.
+                </p>
+                <p>I just like sharing my thought and hopefully can receive feedback from you.</p>
+                <p>
+                  For the nerds of you, I&apos;ve started a dozen of blogs before. None of them
+                  sticks. I have been told that I was not a content creator. I have thought of
+                  myself so. But it doesn&apos;t matter.
+                </p>
                 <p>Just keep writing...</p>
               </div>
             </PostFullContent>

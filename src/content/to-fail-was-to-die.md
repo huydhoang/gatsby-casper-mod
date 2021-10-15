@@ -4,7 +4,7 @@ title: 'To Fail Was To Die...'
 author: [Huy]
 tags: ['Self Reflection']
 image: img/post_to-fail-was-to-die.jpg
-date: '2018-05-06T23:46:37.121Z'
+date: '2021-10-15T09:00:00.000Z'
 draft: false
 excerpt: Success was so important that I've never felt I could have time to rest. A first grader kid worked hard to get into...
 ---
@@ -31,11 +31,11 @@ Yet I have failed. I have failed in so many ways that it’s hard to recount the
 
 At some point, I was all at once fighting with my girlfriend, having troubles with my parents, having been fired from my first job, and losing my close friend’s money. It was embarrassing.
 
-And time after time, I pretended that I was okay, that somehow I could still get up and fight back.
+A few months into 2013, I’d lost almost everything, financially and emotionally. A friend helped me get a job at a private company 6 months later. If you asked, it felt like a million years in torture, like Dr. Strange vs. Dormammu in endless looped time — although my act was nowhere close to being heroic.
+
+And time after time, I pretended that I was okay, that somehow I could still get up and fight back. Each time I got on Facebook and bragged about myself, the new friends that I made, the job titles, the scholarship, the startup grant, etc.
 
 I was delusional.
-
-A few months into 2013, I’d lost almost everything, financially and emotionally. A friend helped me get a job at a private company 6 months later. If you asked, it felt like a million years in torture, like Dr. Strange vs. Dormammu in endless looped time — although my act was nowhere close to being heroic.
 
 I felt empty. It was not me under my own skin, except it was. It was all me -- crying secretly at home, at work, and in front of those few friends that I’d made — and lost. On one occasion, I even ranted at an HR friend when she told me I got rejected because the manager she worked with received negative feedback upon contacting my first workplace. She’s never referred me again.
 
@@ -45,7 +45,7 @@ So I’m sorry if I have hurt!
 
 I’m so thankful and humble for all the help and mercy that everyone gave me along the way. Without you all, I wouldn’t have survived. Not just the ones who remain by my side, but also you who have parted ways.
 
-It's true that I have never had enough time to care for anyone or anything, even for myself.
+Is it true that I have never had enough time to care for anyone or anything? Or so I thought. Even for myself...
 
 I remember questioning myself whether I should just commit suicide.
 
@@ -55,7 +55,7 @@ It’s both hilarious and scary now that I’d even had the thought.
 
 Back then it was nothing but scary.
 
-Anyway, I’ve written this piece to remind myself that that was all part of the journey. That success is not a destination nor the end. It’s just a checkpoint, like any other checkpoint when you play video games.
+Anyway, I’ve written this piece to remind myself that that was all part of the journey. That success is not a destination nor the end. It’s just a checkpoint, like any other checkpoint when you play video games and hit **Save**.
 
 It's feedback for me going down my own path.
 
@@ -63,13 +63,3 @@ Failure is no different.
 
 > **Someday you've gotta fail. And it's gonna be okay.**
 
-----
-<i>
-To you who's reading,
-
-I have written this blog to openly discuss my past experiences and the products that I'm working on.
-
-If you happened to like my writing, consider subscribe via email.
-
-The Subscribe button can be found either in the navbar or below this post.
-</i>
