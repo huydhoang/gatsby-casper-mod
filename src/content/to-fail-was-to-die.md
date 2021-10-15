@@ -11,7 +11,7 @@ excerpt: Success was so important that I've never felt I could have time to rest
 
 Ever since I was a first-grader, it has always felt like I had to succeed. Mom and dad used to tell me how much better of a life I had versus what they had. And the sacrifices they had to make to get us here.
 
-That’s the middle-class family that brought me up. My grandparents were farmers who fought the war. My parents moved to the city for university and stayed here for work. So I grew up a Hanoian knowing little about the countryside.
+That’s the middle-class family that brought me up. My grandparents were farmers and workers who fought the war. My parents moved to the city for university and stayed here for work. So I grew up a Hanoian knowing little about the countryside.
 
 Wartime taught us to yearn for success and discriminate against failure. Because success meant, after all, stability, food and shelter. Things we didn’t have much by then. To fail was to die.
 
