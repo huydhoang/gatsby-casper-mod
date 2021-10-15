@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-casper",
-  "description": "Casper for gatsby",
-  "version": "0.0.0",
+  "name": "huydhoang.github.io",
+  "description": "The code powers my blog at huydhoang.com",
+  "version": "0.0.1",
   "private": true,
-  "author": "Scott Cooper <scttcper@gmail.com>",
+  "author": "Huy D. Hoang <github.com/huydhoang>",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
@@ -11,7 +11,8 @@
     "lint": "eslint --ext .js,.ts,.tsx .",
     "lint:fix": "eslint --fix --ext .js,.ts,.tsx .",
     "start": "npm run dev",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create": "cp ./src/content.example/_template.md ./src/content/new-post.md"
   },
   "dependencies": {
     "@emotion/react": "11.4.1",

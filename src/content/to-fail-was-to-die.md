@@ -55,7 +55,7 @@ It’s both hilarious and scary now that I’d even had the thought.
 
 Back then it was nothing but scary.
 
-Anyway, I’ve written this piece to remind myself that that was all part of the journey. That success is not a destination nor the end. It’s just a checkpoint, like any other checkpoint when you play video games and hit **Save**.
+Anyway, I’ve written this piece to remind myself that that was all part of the journey. That success is not a destination nor the end. It’s just a checkpoint, like any other checkpoint when you play video games and hit *Save*.
 
 It's feedback for me going down my own path.
 
