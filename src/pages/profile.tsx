@@ -230,7 +230,7 @@ const Profile: React.FC = () => (
               <p>
                 However, most of my works were solo / independent. I have not had much experience
                 collaborating on a large scale project with others. That said, I will need relevant
-                training to start working on a multiplayer project.
+                orientation to start working on a multiplayer project.
               </p>
               <p>
                 I&apos;m confident in my written English skills, but not so much in my verbal
