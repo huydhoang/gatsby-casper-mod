@@ -141,7 +141,7 @@ const Profile: React.FC = () => (
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Octobots (Previous job)
+                  Octobots (Previous)
                 </a>
               </h6>
               <p>
