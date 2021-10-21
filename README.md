@@ -1,6 +1,9 @@
 # My personal blog at [huydhoang.com](https://huydhoang.com)
 This code base closely tracks the latest commits at gatsby-casper, with my own customised flavours.
 
+### Useful editing tools
+https://quillbot.com/grammar-check
+
 ---
 # gatsby-casper
 
