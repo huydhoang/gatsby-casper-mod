@@ -117,8 +117,8 @@ const Profile: React.FC = () => (
                 </a>
               </h6>
               <p>
-                A community website for quants deployed using Dokku on a DigitalOcean Droplet (VM)
-                with images hosted on AWS S3.
+                A community website for quants that I&apos;ve deployed using Forem and Dokku on a
+                DigitalOcean Droplet (VM) with images hosted on AWS S3.
               </p>
               {/* */}
               <h6>
@@ -131,8 +131,10 @@ const Profile: React.FC = () => (
                 </a>
               </h6>
               <p>
-                I&apos;ve built this blog using Gatsby (React.js/Node.js) and a Github workflow to
-                automatically build and deploy to Github Pages.
+                With basic React.js and TypeScript knowledge, I&apos;ve modified the Gatsby Casper
+                theme to create this blog. Posts are written in Markdown, pages in TypeScript. And
+                I&apos;ve added a custom Github workflow to automatically build and deploy to Github
+                Pages.
               </p>
               {/* */}
               <h6>
@@ -145,8 +147,10 @@ const Profile: React.FC = () => (
                 </a>
               </h6>
               <p>
-                A multi-threaded data pipeline written in Python that provided updates to a terabyte
-                of customer data monthly.
+                A multi-threaded data pipeline I&apos;ve written from scratch in Python. It allowed
+                me to consolidate data for an exploration database from multiple sources. This
+                project removed the bottleneck for our dev team at the time and reduced our internal
+                service time from 15 days per request to just 2-5 days.
               </p>
 
               {/*  */}
@@ -162,7 +166,7 @@ const Profile: React.FC = () => (
                 </a>
               </h6>
               <p>
-                A full-stack chess website which includes a Python backend to serve the
+                My full-stack chess project which includes a Python backend to serve the
                 state-of-the-art chess engines Stockfish 14 and LeelaChessZero 0.28, a kid-friendly
                 client-side JavaScript bot, and a static front-end to let users play with the bots.
               </p>
@@ -222,10 +226,11 @@ const Profile: React.FC = () => (
                 A ready-to-use Next.js template which I created for my own use. It features strict
                 TypeScript support and automatic code formatting using ESLint+Prettier.
               </p>
+              {/*  */}
               <h5>What to expect</h5>
               <p>
                 I can cover a wide range of tasks, from managing a cloud-based virtual machine and
-                writing server-side code to handling a minimal frontend workload.
+                writing server-side code to handling a simple frontend workload.
               </p>
               <p>
                 However, most of my works were solo / independent. I have not had much experience
@@ -236,6 +241,7 @@ const Profile: React.FC = () => (
                 I&apos;m confident in my written English skills, but not so much in my verbal
                 communication.
               </p>
+              {/*  */}
               <h5>Further info</h5>
               <p>
                 More details about my background are available on{' '}
@@ -246,6 +252,10 @@ const Profile: React.FC = () => (
                 >
                   my LinkedIn profile.
                 </a>
+              </p>
+              <p>
+                To discuss work, please email me at:{' '}
+                <a href="mailto:huydhoan9@gmail.com">huydhoan9@gmail.com</a>
               </p>
             </PostFullContent>
           </article>
