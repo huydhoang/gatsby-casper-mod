@@ -65,7 +65,7 @@ const option: ReactEChartsProps['option'] = {
       type: 'radar',
       data: [
         {
-          value: [80, 50, 40, 90, 30, 60],
+          value: [80, 50, 40, 90, 50, 70],
           name: 'Skill Level',
         },
       ],
@@ -237,10 +237,6 @@ const Profile: React.FC = () => (
                 collaborating on a large scale project with others. That said, I will need relevant
                 orientation to start working on a multiplayer project.
               </p>
-              <p>
-                I&apos;m confident in my written English skills, but not so much in my verbal
-                communication.
-              </p>
               {/*  */}
               <h5>Further info</h5>
               <p>
@@ -255,7 +251,7 @@ const Profile: React.FC = () => (
               </p>
               <p>
                 To discuss work, please email me at:{' '}
-                <a href="mailto:huydhoan9@gmail.com">huydhoan9@gmail.com</a>
+                <a href="mailto:huy@bbudtech.com">huy@bbudtech.com</a>
               </p>
             </PostFullContent>
           </article>
