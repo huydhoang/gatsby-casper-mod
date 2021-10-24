@@ -1,5 +1,5 @@
 # Tag metadata
 # Bug: cover image's not working!
-# - id: Self Reflection
-#   description: Posts related to my self-reflection process
-#   image: img/tag_self-reflection.jpg
+- id: Self Reflection
+  description: My self reflection process
+  image: img/tag_self-reflection.jpg
