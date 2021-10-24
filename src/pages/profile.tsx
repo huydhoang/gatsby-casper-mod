@@ -19,7 +19,7 @@ import {
 import { NoImage, PostFull, PostFullHeader, PostFullTitle } from '../templates/post';
 import { colors } from '../styles/colors';
 
-import { ReactECharts, ReactEChartsProps } from '../components/React-ECharts';
+import { ReactECharts, ReactEChartsProps } from '../components/ApacheECharts';
 
 const PageTemplate = css`
   .site-main {
