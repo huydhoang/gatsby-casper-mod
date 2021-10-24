@@ -65,7 +65,7 @@ const option: ReactEChartsProps['option'] = {
       type: 'radar',
       data: [
         {
-          value: [80, 50, 40, 90, 50, 70],
+          value: [80, 50, 40, 80, 50, 70],
           name: 'Skill Level',
         },
       ],
@@ -233,9 +233,9 @@ const Profile: React.FC = () => (
                 writing server-side code to handling a simple frontend workload.
               </p>
               <p>
-                However, most of my works were solo / independent. I have not had much experience
+                However, most of my works were independent. I haven&apos;t got much experience
                 collaborating on a large scale project with others. That said, I will need relevant
-                orientation to start working on a multiplayer project.
+                orientation to start working on a team project.
               </p>
               {/*  */}
               <h5>Further info</h5>
