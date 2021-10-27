@@ -109,11 +109,11 @@ const Profile: React.FC = () => (
               {/* */}
               <h6>
                 <a
-                  href="https://community.quantszone.com/"
+                  href="https://quantszone.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  community.quantszone.com (Current)
+                  quantszone.com (Current)
                 </a>
               </h6>
               <p>
