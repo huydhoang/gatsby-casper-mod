@@ -14,7 +14,7 @@ One of the challenges in building a blog is putting up a comment section.
 
 While that looks easy from the outside as Facebook and other social media have populated the use, it's really not.
 
-From scratch, you would have to create an UI for the users to interact with. Then you must keep track of the data, storing all those comments somewhere and pull them out when needed. That would mean you need a backend server, which might add up to the cost/effort.
+From scratch, you would have to create an UI for the users to interact with. Then you must keep track of the data, storing all those comments somewhere and pulling them out when needed to show. That would mean you need a backend server, which might add up to the cost/effort.
 
 And we don't wanna use Facebook comments here because it looks ugly, and who doesn't hate their privacy policy?
 
