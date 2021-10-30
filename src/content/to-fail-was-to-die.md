@@ -2,7 +2,7 @@
 layout: post
 title: 'To Fail Was To Die...'
 author: [Huy]
-tags: ['Self Reflection']
+tags: ['Reflection']
 image: img/post_to-fail-was-to-die.jpg
 date: '2021-10-15T09:00:00.000Z'
 draft: false

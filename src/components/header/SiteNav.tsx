@@ -100,8 +100,8 @@ class SiteNav extends React.Component<SiteNavProps, SiteNavState> {
                   </Link>
                 </li>
                 <li role="menuitem">
-                  <Link to="/tags/self-reflection/" activeClassName="nav-current">
-                    Self Reflection
+                  <Link to="/tags/update/" activeClassName="nav-current">
+                    Update
                   </Link>
                 </li>
               </ul>
