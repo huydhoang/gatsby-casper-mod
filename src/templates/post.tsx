@@ -3,7 +3,7 @@ import { graphql, Link } from 'gatsby';
 import { GatsbyImage, getSrc, getImage } from 'gatsby-plugin-image';
 import * as _ from 'lodash';
 import { lighten, setLightness } from 'polished';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 
 import { css } from '@emotion/react';
@@ -22,7 +22,7 @@ import config from '../website-config';
 import { AuthorList } from '../components/AuthorList';
 
 export interface Author {
-  id: string;
+  name: string;
   bio: string;
   avatar: any;
 }
@@ -44,6 +44,7 @@ interface PageTemplateProps {
         date: string;
         userDate: string;
         image: any;
+        credit: string;
         excerpt: string;
         tags: string[];
         author: Author[];
@@ -86,6 +87,7 @@ export interface PageContext {
   };
   frontmatter: {
     image: any;
+    credit: string;
     excerpt: string;
     title: string;
     date: string;
@@ -109,6 +111,22 @@ const PageTemplate = ({ data, pageContext, location }: PageTemplateProps) => {
   const datetime = format(date, 'yyyy-MM-dd');
   // 20 AUG 2018
   const displayDatetime = format(date, 'dd LLL yyyy');
+
+  // comment section
+  useEffect(() => {
+    const articleElement = document.querySelector('article');
+    if (articleElement && !document.querySelector('.utterances-frame')) {
+      const script = document.createElement('script');
+      script.src = 'https://utteranc.es/client.js';
+      script.setAttribute('repo', 'huydhoang/huydhoang.github.io');
+      script.setAttribute('issue-term', 'pathname');
+      script.setAttribute('label', 'blog-comment');
+      script.setAttribute('theme', 'preferred-color-scheme');
+      script.setAttribute('crossorigin', 'anonymous');
+      script.async = true;
+      articleElement.append(script);
+    }
+  });
 
   return (
     <IndexLayout className="post-template">
@@ -148,7 +166,7 @@ const PageTemplate = ({ data, pageContext, location }: PageTemplateProps) => {
           />
         )}
         <meta name="twitter:label1" content="Written by" />
-        <meta name="twitter:data1" content={post.frontmatter.author[0].id} />
+        <meta name="twitter:data1" content={post.frontmatter.author[0].name} />
         <meta name="twitter:label2" content="Filed under" />
         {post.frontmatter.tags && <meta name="twitter:data2" content={post.frontmatter.tags[0]} />}
         {config.twitter && (
@@ -183,9 +201,10 @@ const PageTemplate = ({ data, pageContext, location }: PageTemplateProps) => {
                   {post.frontmatter.tags &&
                     post.frontmatter.tags.length > 0 &&
                     config.showAllTags &&
-                    post.frontmatter.tags.map(tag => (
+                    post.frontmatter.tags.map((tag, idx) => (
                       <React.Fragment key={tag}>
-                        <Link to={`/tags/${_.kebabCase(tag)}/`}>{tag}</Link>,<b>&nbsp;</b>
+                        {idx > 0 && <>, &nbsp;</>}
+                        <Link to={`/tags/${_.kebabCase(tag)}/`}>{tag}</Link>
                       </React.Fragment>
                     ))}
                   {post.frontmatter.tags &&
@@ -206,8 +225,8 @@ const PageTemplate = ({ data, pageContext, location }: PageTemplateProps) => {
                     <section className="post-full-byline-meta">
                       <h4 className="author-name">
                         {post.frontmatter.author.map(author => (
-                          <Link key={author.id} to={`/author/${_.kebabCase(author.id)}/`}>
-                            {author.id}
+                          <Link key={author.name} to={`/author/${_.kebabCase(author.name)}/`}>
+                            {author.name}
                           </Link>
                         ))}
                       </h4>
@@ -232,6 +251,9 @@ const PageTemplate = ({ data, pageContext, location }: PageTemplateProps) => {
                     style={{ height: '100%' }}
                     alt={post.frontmatter.title}
                   />
+                  {post.frontmatter.credit && (
+                    <ImageAlt>Photo credit: {post.frontmatter.credit}</ImageAlt>
+                  )}
                 </PostFullImage>
               )}
               <PostContent htmlAst={post.htmlAst} />
@@ -437,9 +459,16 @@ const PostFullImage = styled.figure`
     height: 400px;
   }
   @media (max-width: 500px) {
-    margin-bottom: 4vw;
+    margin-bottom: 6vw;
     height: 350px;
   }
+`;
+
+const ImageAlt = styled.p`
+  opacity: 0.5;
+  font-size: 0.75em;
+  margin-left: 0.75rem;
+  margin-bottom: 0;
 `;
 
 export const query = graphql`
@@ -469,8 +498,9 @@ export const query = graphql`
             gatsbyImageData(layout: FULL_WIDTH)
           }
         }
+        credit
         author {
-          id
+          name
           bio
           avatar {
             children {

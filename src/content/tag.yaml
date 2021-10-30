@@ -1,5 +1,6 @@
-# Tag metadata
-# Bug: cover image's not working!
+# Pre-made tags
+# Bug: tag's cover image is not working!
+# Deleting this file will break the build process
 - id: Self Reflection
   description: My self reflection process
-  image: img/tag_self-reflection.jpg
+  image: img/post_to-fail-was-to-die.jpg

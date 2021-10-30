@@ -15,7 +15,7 @@ module.exports = {
     'react/jsx-tag-spacing': 'off',
     'react/prop-types': 'off',
     'no-warning-comments': 'off',
-    'complexity': 'off',
+    complexity: 'off',
     '@typescript-eslint/strict-boolean-expressions': 'off',
     '@typescript-eslint/no-unnecessary-condition': 'off',
     '@typescript-eslint/no-unsafe-call': 'off',
@@ -27,5 +27,6 @@ module.exports = {
     '@typescript-eslint/no-confusing-void-expression': 'off',
     '@typescript-eslint/no-unsafe-assignment': 'off',
     '@typescript-eslint/no-require-imports': 'off',
+    '@typescript-eslint/naming-convention': 'off',
   },
 };
