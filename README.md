@@ -2,8 +2,8 @@
 This code base closely tracks the latest commits at gatsby-casper, with my own customised flavours.
 
 ### Changelog
-[x] Fixed Subscribe button styling
-[x] Added Image credit element in `post.tsx`
+- [x] Fixed Subscribe button styling
+- [x] Added Image credit element in `post.tsx`
 
 ### Useful editing tools
 https://quillbot.com/grammar-check
