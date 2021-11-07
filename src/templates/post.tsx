@@ -459,7 +459,7 @@ const PostFullImage = styled.figure`
     height: 400px;
   }
   @media (max-width: 500px) {
-    margin-bottom: 6vw;
+    margin-bottom: 10vw;
     height: 350px;
   }
 `;
@@ -468,7 +468,6 @@ const ImageAlt = styled.p`
   opacity: 0.5;
   font-size: 0.75em;
   margin-left: 0.75rem;
-  margin-bottom: 0;
 `;
 
 export const query = graphql`
