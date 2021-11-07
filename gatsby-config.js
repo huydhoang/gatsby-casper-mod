@@ -4,7 +4,7 @@ const path = require('path');
 module.exports = {
   siteMetadata: {
     title: 'Huy/s Devlog',
-    description: 'Notes on software and startup',
+    description: 'A reflection of my life and works',
     siteUrl: 'https://huydhoang.com', // full path to blog - no ending slash
   },
   mapping: {
@@ -56,6 +56,7 @@ module.exports = {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
         siteUrl: 'https://huydhoang.com',
+        stripQueryString: true,
       },
     },
     'gatsby-plugin-typescript',
