@@ -108,17 +108,13 @@ const Profile: React.FC = () => (
               <h3>#Production</h3>
               {/* */}
               <h6>
-                <a
-                  href="https://quantszone.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href="https://quantszone.com/" target="_blank" rel="noopener noreferrer">
                   quantszone.com (Current)
                 </a>
               </h6>
               <p>
-                A community website for quants that I&apos;ve deployed using Forem and Dokku on a
-                DigitalOcean Droplet (VM) with images hosted on AWS S3.
+                A community website for quants that I&apos;m building with Ghost CMS on Heroku, a
+                Next.js (React) frontend on Vercel and images hosting on AWS S3.
               </p>
               {/* */}
               <h6>
