@@ -1,9 +1,9 @@
 {
-  "name": "huydhoang.github.io",
-  "description": "The code powers my blog at huydhoang.com",
+  "name": "gatsby-casper-plus",
+  "description": "Gatsby Casper theme with added features",
   "version": "0.0.1",
   "private": true,
-  "author": "Huy D. Hoang <github.com/huydhoang>",
+  "author": "Scott Cooper <scttcper@gmail.com>, Huy D. Hoang <github.com/huydhoang>",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
@@ -79,6 +79,6 @@
     "not dead"
   ],
   "engines": {
-    "node": ">=14.0.0"
+    "node": "16.13.0"
   }
 }
