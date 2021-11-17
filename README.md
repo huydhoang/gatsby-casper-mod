@@ -4,6 +4,7 @@ This code base closely tracks the latest commits at [gatsby-casper](https://gith
 ### Changelog
 - [x] Fixed Subscribe button styling
 - [x] Added Image credit element in `post.tsx`
+- [x] Added Github comments
 
 ---
 # gatsby-casper
