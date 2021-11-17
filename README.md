@@ -1,12 +1,9 @@
-# My personal blog at [huydhoang.com](https://huydhoang.com)
-This code base closely tracks the latest commits at gatsby-casper, with my own customised flavours.
+# Gatsby Casper theme with added features
+This code base closely tracks the latest commits at [gatsby-casper](https://github.com/scttcper/gatsby-casper), with my own customised flavours.
 
 ### Changelog
 - [x] Fixed Subscribe button styling
 - [x] Added Image credit element in `post.tsx`
-
-### Useful editing tools
-https://quillbot.com/grammar-check
 
 ---
 # gatsby-casper
